@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "dobleh",
+      "password": "maungapain",
+      "role": "admin"
+    },
+    {
+      "password": "aa",
+      "username": "budi",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "password": "123",
+      "username": "asd",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "asda",
+      "password": "asd",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "asdad",
+      "password": "asd",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "asdf",
+      "password": "asd",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "asde",
+      "password": "asd",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "username": "asdef",
+      "password": "asd",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "udin",
+      "password": "anjing",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "username": "zxcv",
+      "password": "123",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "username": "123",
+      "password": "123",
+      "role": "user",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "name": "Tekken 7 Collector Edition",
+      "image": "https://c1.neweggimages.com/ProductImage/79-253-194-V01.jpg",
+      "stok": 10,
+      "kategoriId": 1,
+      "harga": 1500000,
+      "deskripsi": "Tekken 7",
+      "id": 1,
+      "kategori": "games"
+    },
+    {
+      "name": "Monster Hunter Collector Edition",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/29/1680100/1680100_f8f2e666-ffed-4e6c-9375-37c32601d04b_800_565.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 3000000,
+      "deskripsi": "Monster Hunter World",
+      "id": 2,
+      "kategori": "games"
+    },
+    {
+      "name": "Hitbox Crossup",
+      "image": "https://cdn.shopify.com/s/files/1/0166/4408/products/xparency.png?v=1563833448",
+      "stok": 100,
+      "kategoriId": 2,
+      "harga": 5000000,
+      "deskripsi": "Hitbox combined with arcade stick ",
+      "id": 3,
+      "kategori": "accesories"
+    },
+    {
+      "name": "a",
+      "image": "https://i.ebayimg.com/images/g/GFIAAOSwGnpeDdsM/s-l400.jpg",
+      "stok": 3,
+      "kategoriId": 1,
+      "harga": 150000,
+      "deskripsi": "asdasdasda",
+      "id": 4,
+      "kategori": "games"
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "Games"
+    },
+    {
+      "id": 2,
+      "nama": "Accesories"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "status": "oncart",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "status": "oncart",
+      "userId": 11,
+      "id": 3
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 2,
+      "productId": 2,
+      "qty": 4,
+      "id": 1
+    },
+    {
+      "transactionId": 3,
+      "productId": 2,
+      "qty": "100",
+      "id": 2
+    }
+  ]
+}
